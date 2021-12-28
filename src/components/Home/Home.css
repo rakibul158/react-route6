@@ -1,0 +1,12 @@
+.country{
+    display: flex;
+    margin: 20px;
+}
+.country-container{
+    width: 70%;
+}
+
+.add-country-container{
+    margin: 20px;
+    padding: 20px
+}

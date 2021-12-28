@@ -12,12 +12,13 @@ const Country = (props) => {
     }
 
     return (
-        <div className="country">
+        <div className="country-item">
             <h4>{name}</h4>
             <img style={{height:'100px'}} src={flags.svg} alt="" />
             <p>Region - {region}</p>
             <p>Capital - {capital}</p>
             <button className="btn btn-primary" onClick={() => handleBtnClick(name)}>Country Details</button>
+            <button className="btn btn-warning" onClick={() => props.handleAddCountry(props.data)}>Add Country</button>
         </div>
     );
 };

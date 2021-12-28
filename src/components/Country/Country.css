@@ -1,8 +1,6 @@
-.country{
+.country-item{
     border: 1px solid lightgrey;
-    border-radius: 5px;
-    padding: 10px;
-    text-align: center;
+    border-radius:5px;
     margin: 10px auto;
-    width: 30%;
+    padding: 10px 20px;
 }
